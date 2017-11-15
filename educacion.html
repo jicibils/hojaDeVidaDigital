@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <header>
+      <svg with="100px" height="150px" viewBox="0 0 100 150">
+        <image with="100px" height="150px" xlink:href="img/bird.svg"></image>
+      </svg>
+      <h1>Curriculum Vitae</h1>
+      <h2>Cibils, Juan Ignacio</h2>
+      <ul>
+        <li><p><a href="index.html">Inicio</a></p></li>
+        <li><p><a href="educacion.html">Educacion</a></p></li>
+        <li><p><a href="experiencia.html">Experiencia</a></p></li>
+      </ul>
+    </header>
+    <section>
+      <h2>Educacion</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institucion</th>
+            <th>Lugar</th>
+            <th>Culmino?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2004</td>
+            <td>Colegio Manuel Belgrano</td>
+            <td>Rio Cuarto-Cordoba</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>2009</td>
+            <td>Colegio Agronomia</td>
+            <td>Rio Cuarto-Cordoba</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>Universidad Nacional de Rio Cuarto</td>
+            <td>Rio Cuarto-Cordoba</td>
+            <td>NO</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Agregar estudio</h2>
+      <form action="">
+        <p>
+        <label for="anio">AÑO:</label>
+        <select name="anio">
+          <option value="1">2017</option>
+          <option value="1">2016</option>
+          <option value="1">2015</option>
+          <option value="1">2014</option>
+          <option value="1">2013</option>
+          <option value="1">2012</option>
+          <option value="1">2011</option>
+          <option value="1">2010</option>
+          <option value="1">2009</option>
+        </select>
+        </p>
+        <p>
+          <label for="institucion">Institucion: </label>
+          <input type="text" name="intitucion" id="institucion" placeholder="ej: UNRC" required >
+        </p>
+        <p>
+          <label for="lugar">Lugar: </label>
+          <textarea name="lugar" rows="2" cols="30" ></textarea>
+        </p>
+        <p>
+          <label for="culmino">Culmino? </label>
+          <input type="radio" name="culmino"> Si
+          <input type="radio" name="culmino"> No
+        </p>
+        <p>
+          <input type="submit" name="enviar" value="Enviar">
+        </p>
+
+      </form>
+
+    </section>
+
+    <footer>
+      <h4>Contacto:</h4>
+      <h5>Correo electronico: jicibils@hotmail.com</h5>
+      <h5><a href="https://www.facebook.com/juan.i.cibils">Facebook</a> </h5>
+      <h5>Telefono: (0358) 154285425</h5>
+    </footer>
+  </body>
+</html>
